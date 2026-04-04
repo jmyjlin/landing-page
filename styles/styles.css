@@ -112,8 +112,8 @@ a {
 }
 
 #box-container img {
-  height: 140px;
-  width: 140px;
+  height: 155px;
+  width: 155px;
   border: 3px solid #25591F;
   border-radius: 10px;
   object-fit: cover;
