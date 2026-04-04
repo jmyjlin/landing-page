@@ -9,10 +9,7 @@
   display: flex;
   flex-direction: column;
   background-color: #1F2937;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 20px;
-  padding-bottom: 90px;
+  padding: 20px 80px 90px;
 }
 
 #nav-bar {
@@ -74,7 +71,7 @@ a {
 }
 
 #hero-txt-btn button {
-  padding: 6px 22px 6px 22px;
+  padding: 6px 25px;
   background-color: rgb(94,188,95);
   border: none;
   border-radius: 4px;
@@ -88,7 +85,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 45px;
+  margin-top: 55px;
 }
 
 #main h2 {
@@ -104,7 +101,7 @@ a {
   align-items: baseline;
   gap: 45px;
   padding: 40px 130px 40px 130px;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
 }
 
 .img-txt-container {
@@ -121,5 +118,61 @@ a {
 
 .img-txt-container p {
   font-size: 15px;
-  color: #87888a;
+  color: #87888A;
+}
+
+#quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 75px 300px 75px 300px;
+  gap: 24px;
+  margin-bottom: 65px;
+}
+
+p#quote-author {
+  align-self: flex-end;
+  font-size: 18px;
+}
+
+p#quote {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+/* TODO: Fix flex box for cta-container */
+
+#cta-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(94,188,95);
+  padding: 30px 70px;
+  border-radius: 9px;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+#cta-container button {
+  background-color: rgb(94,188,95);
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+  color: #E5E7EB;
+  padding: 6px 25px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#cta-container #cta-txt {
+  color: #F9FAF8;
+}
+
+#footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 25px 0px;
+  font-size: 14px;
 }
