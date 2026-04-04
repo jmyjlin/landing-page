@@ -12,7 +12,7 @@
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 20px;
-  padding-bottom: 45px;
+  padding-bottom: 90px;
 }
 
 #nav-bar {
@@ -20,6 +20,14 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 75px;
+}
+
+#nav-bar p {
+  cursor: pointer;
+}
+
+#earth-txt {
+  color: rgb(125,173,79);
 }
 
 ul {
@@ -43,7 +51,7 @@ a {
 #hero-container {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 35px;
 }
 
 #hero-txt-btn h1 {
@@ -67,7 +75,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 11px;
+  gap: 13px;
 }
 
 #hero-txt-btn button {
